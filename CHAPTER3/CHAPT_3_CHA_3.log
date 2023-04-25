@@ -1,0 +1,13 @@
+let randomBodyParts = ["Ears", "Hands", "Teeth"];
+let randomAnimalParts = ["Hooves", "Nose", "Tail"];
+let randomAnimals = ["Beaver", "Donkey", "Hyena"];
+let randomAdjectives = ["Vomiting", "Blindness", "Fainting"];
+let randomWords = ["Pits", "Caves", "Graves"];
+let randomBodyPart = randomBodyParts[Math.floor(Math.random()*randomBodyParts.length)];
+let randomAnimalPart = randomAnimalParts[Math.floor(Math.random()*randomAnimalParts.length)];
+let randomAnimal = randomAnimals[Math.floor(Math.random()*randomAnimals.length)];
+let randomAdjective = randomAdjectives[Math.floor(Math.random()*randomAdjectives.length)];
+let randomWord = randomWords[Math.floor(Math.random()*randomWords.length)];
+let randomResult = "Your " + randomBodyPart + " are more like the " + randomAnimalPart + " of a " + randomAnimal + " resulting in " + randomAdjective + " and eventually everyone hiding in " + randomWord + "!!!";
+randomResult
+'Your Teeth are more like the Nose of a Hyena resulting in Vomiting and eventually everyone hiding in Graves!!!'
